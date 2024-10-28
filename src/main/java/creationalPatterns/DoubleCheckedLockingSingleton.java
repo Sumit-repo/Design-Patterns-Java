@@ -1,5 +1,9 @@
 package creationalPatterns;
 
+/**
+ * Double-checked locking Singleton class.
+ * This approach is efficient as it synchronizes only during the first access.
+ */
 public class DoubleCheckedLockingSingleton {
     private static DoubleCheckedLockingSingleton singleton;
 

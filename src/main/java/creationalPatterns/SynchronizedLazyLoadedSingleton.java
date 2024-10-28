@@ -1,5 +1,9 @@
 package creationalPatterns;
 
+/**
+ * Synchronized lazy-loaded Singleton class.
+ * This approach is thread-safe, but may degrade performance due to synchronization.
+ */
 public class SynchronizedLazyLoadedSingleton {
     private static SynchronizedLazyLoadedSingleton singleton;
 

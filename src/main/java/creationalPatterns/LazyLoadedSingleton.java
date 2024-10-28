@@ -1,5 +1,9 @@
 package creationalPatterns;
 
+/**
+ * Lazy-loaded Singleton class.
+ * This approach is not thread-safe and may cause issues in a multithreaded environment.
+ */
 public class LazyLoadedSingleton {
     private static LazyLoadedSingleton singleton;
 

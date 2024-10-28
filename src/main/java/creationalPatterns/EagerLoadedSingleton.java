@@ -1,5 +1,9 @@
 package creationalPatterns;
 
+/**
+ * Eagerly-loaded Singleton class.
+ * This approach is simple and thread-safe, but it may be inefficient if the instance is never used.
+ */
 public class EagerLoadedSingleton {
     private static final creationalPatterns.EagerLoadedSingleton SINGLETON = new creationalPatterns.EagerLoadedSingleton();
 
