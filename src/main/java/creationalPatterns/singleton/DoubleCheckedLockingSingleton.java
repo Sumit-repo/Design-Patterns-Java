@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.singleton;
 
 /**
  * Double-checked locking Singleton class.

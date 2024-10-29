@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.singleton;
 
 /**
  * Lazy-loaded Singleton class.

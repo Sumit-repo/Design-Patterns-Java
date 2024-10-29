@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.singleton;
 
 import com.sun.xml.internal.ws.developer.Serialization;
 

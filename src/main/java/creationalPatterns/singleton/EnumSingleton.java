@@ -1,4 +1,4 @@
-package creationalPatterns;
+package creationalPatterns.singleton;
 
 /**
  * Enum Singleton class.
